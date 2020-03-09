@@ -163,7 +163,7 @@ class Parser
                 return '((?:\?.*?)?)';
 
             case 'r': // First line of request; can be '-' for an empty (bogus) request
-                return '([A-Za-z]+ \S+ HTTP\/[0-9\.]+|\-)';
+                return '([A-Za-z]+ +.+|\-)';
 
             case 't': // Time the request was received, in the format [18/Sep/2011:19:18:28 -0400]
                 return $hasBrackets ? '([0-9]+)' : '\[([^\]]+)\]';
