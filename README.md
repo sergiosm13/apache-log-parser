@@ -15,7 +15,7 @@ Just define the following requirement in your `composer.json` file:
 ```json
 {
     "require": {
-        "benmorel/apache-log-parser": "dev-master"
+        "sergiosm13/apache-log-parser": "dev-master"
     }
 }
 ```

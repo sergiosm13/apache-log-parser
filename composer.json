@@ -1,6 +1,6 @@
 {
-  "name": "benmorel/apache-log-parser",
-  "description": "PHP library to parse Apache log files",
+  "name": "sergiosm13/apache-log-parser",
+  "description": "PHP library to parse Apache log files - Fork from benmorel/apache-log-parser",
   "type": "library",
   "keywords": [
     "Apache",
